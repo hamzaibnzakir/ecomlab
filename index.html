@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAINBOX EOM LAB - Mentorship Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #161b22;
+            border-bottom: 1px solid #30363d;
+        }
+        header h1 {
+            font-size: 2rem;
+            color: #58a6ff;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #c9d1d9;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1rem;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #161b22;
+            background-image: image(Shopify);
+            cursor: cell;
+            position: relative;
+        }
+        .hero-section::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: image(Shopify);
+            background: linear-gradient(145deg, #1a2027, #0d1117);
+            z-index: -1;
+        }
+        .hero-section h2 {
+            font-size: 2.5rem;
+            color: #58a6ff;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .cta-buttons a {
+            text-decoration: none;
+            background: linear-gradient(145deg, #58a6ff, #2878c7);
+            color: #0d1117;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(88, 166, 255, 0.3);
+        }
+        section {
+            padding: 40px 20px;
+        }
+        section h2 {
+            color: #58a6ff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .process {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .process div {
+            background-color: #21262d;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #30363d;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .results {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            cursor: cell;
+            text-align: center;
+        }
+        .results img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .server-section {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #161b22;
+            margin-top: 30px;
+            border-radius: 10px;
+            border: 1px solid #30363d;
+        }
+        .server-section a {
+            text-decoration: none;
+            background: linear-gradient(145deg, #58a6ff, #2878c7);
+            color: #0d1117;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(88, 166, 255, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #161b22;
+            color: #c9d1d9;
+            border-top: 1px solid #30363d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BRAINBOX ECOM LAB</h1>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#process">Process</a>
+            <a href="#work">Results</a>
+            <a href="#server">Join Us</a>
+            <a href="#faq">FAQs</a>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="hero">
+        <h2>Follow Along 1 on 1 & Start Your Ecom Business</h2>
+        <p>We Help You Reach $1,000 a Day or You Don't Pay</p>
+        <div class="cta-buttons">
+            <a href="https://t.me/brainbox_0">Contact Me on Telegram</a>
+        </div>
+    </section>
+
+    <section id="process">
+        <h2>How Does It Work?</h2>
+        <div class="process">
+            <div>
+                <h3>Week 1</h3>
+                <p>Product research & niche selection using tools like AdSpy & Google Trends.</p>
+            </div>
+            <div>
+                <h3>Week 2</h3>
+                <p>Store setup & branding for high conversion and unique identity.</p>
+            </div>
+            <div>
+                <h3>Week 3</h3>
+                <p>Ad creative & funnel optimization to maximize performance.</p>
+            </div>
+            <div>
+                <h3>Week 4</h3>
+                <p>Scaling strategies to grow profitably while analyzing KPIs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Results That Speak</h2>
+        <div class="results">
+            <img src="sales-proof-placeholder1.jpg.png" alt="Sales Proof">
+            <img src="sales-proof-placeholder2.jpg.jpg" alt="Sales Proof">
+            <img src="sales-proof-placeholder3.jpg.jpg" alt="Sales Proof">
+            <img src="sales-proof-placeholder4.jpg.jpg" alt="Sales Proof">
+        </div>
+    </section>
+
+    <section class="server-section" id="server">
+        <h2>Join Our Community</h2>
+        <p>Connect with like-minded individuals and gain access to exclusive resources.</p>
+        <a href="https://discord.gg/6v4h3rAZ">Join My Server</a>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <h2 class="section-title">Questions? We Have Answers</h2>
+        <p class="section-subtitle">You can always contact me directly or check out these commonly asked questions!</p>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">What makes this mentorship program different from free online resources?</button>
+                <div class="faq-answer">This program offers personalized, step-by-step guidance, unlike generic online content. You’ll get tailored advice, actionable strategies, and one-on-one mentorship designed for your success.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">Do I need prior experience with eCommerce to succeed?</button>
+                <div class="faq-answer">No! This program is designed to take you from complete beginner to expert, guiding you every step of the way.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">What kind of results can I realistically expect, and how soon?</button>
+                <div class="faq-answer">Results vary, but most students see significant progress within 4 weeks. Some even hit $1,000/day within their first month!</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">Do I need to invest in ads, and if so, how much should I budget?</button>
+                <div class="faq-answer">Yes, ad investment is essential. A budget of $300-$500 is recommended for testing and scaling.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">Will you help me find winning products for my store?</button>
+                <div class="faq-answer">Absolutely! I’ll guide you on product research, niche selection, and validating profitable ideas.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">What tools and software do I need to start? Are they included?</button>
+                <div class="faq-answer">You’ll need tools like Shopify, AdSpy, and a few others. While these aren’t included, I’ll provide discounted access where possible.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">How will you assist me in creating high-converting ad creatives?</button>
+                <div class="faq-answer">I’ll teach you proven methods for creating engaging and high-performing ad creatives, including video scripts and editing tips.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">What if I don’t live in the US? Can I still succeed?</button>
+                <div class="faq-answer">Yes! ECommerce is global, and I’ll show you strategies that work in any country.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">Can I get a refund if I don’t like the program?</button>
+                <div class="faq-answer">Yes, we offer a satisfaction guarantee. If you don’t see results, you’ll be eligible for a refund under specific terms.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">What’s the secret formula behind your students’ success?</button>
+                <div class="faq-answer">It’s a combination of product selection, store optimization, and strategic ad scaling—skills I’ll teach you during the mentorship.</div>
+            </div>
+        </div>
+    
+    <script>
+    function toggleFaq(element) {
+        const answer = element.nextElementSibling;
+        const isVisible = answer.style.display === "block";
+        answer.style.display = isVisible ? "none" : "block";
+    }
+    </script>
+    
+    <style>
+    .faq-item {
+        margin-bottom: 15px;
+    }
+    .faq-question {
+        background-color: #0882fc;
+        color: #f0f2f5;
+        padding: 10px 20px;
+        width: 100%;
+        text-align: left;
+        border: color-mix(in xyz-d50, color percentage, color percentage);
+        outline;
+        font-size: 15px;
+        cursor: cell;
+        border-radius: 5px;
+        transition: background-color 0.5s;
+    }
+    .faq-question:hover {
+        background-color: #094c8f6b;
+    }
+    .faq-answer {
+        display: none;
+        background-color: #ffffff;
+        color: #212529;
+        padding: 10px 20px;
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        margin-top: 7px;
+    }
+    </style>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EcomDojo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
